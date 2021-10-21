@@ -15,10 +15,10 @@
     "lint-staged": "^11.2.3",
     "prettier": "^2.4.1"
   },
-  "prettier": {
-    "singleQuote": true
-  },
   "lint-staged": {
     "*.js": "prettier --write"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }
